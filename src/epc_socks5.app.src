@@ -1,0 +1,13 @@
+{application, epc_socks5, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {epc_socks5_app, []}},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+]}.
