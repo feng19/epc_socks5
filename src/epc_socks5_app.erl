@@ -11,7 +11,7 @@
 -export([main/1, start/0, start/2, stop/1]).
 
 -define(LISTEN_OPTIONS,
-    [binary, {ip, {0, 0, 0, 0}}, {reuseaddr, true},
+    [binary, {ip, {127, 0, 0, 1}}, {reuseaddr, true},
         {active, false}, {backlog, 256}]).
 
 %%====================================================================
