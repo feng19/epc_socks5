@@ -1,16 +1,18 @@
 [{epc_socks5, [
-    {"one", [
-        {port, 30006},
-        {socks5_server, "127.0.0.1"},
-        {socks5_port, 8080},
-        {socks5_user, <<"user">>},
-        {socks5_pass, <<"pass">>}
-    ]},
-    {"two", [
-        {port, 30007},
-        {socks5_server, "127.0.0.1"},
-        {socks5_port, 8080},
-        {socks5_user, <<"user">>},
-        {socks5_pass, <<"pass">>}
+    {ports, [
+        {one, [
+            {port, 30006},
+            {socks5_server, "127.0.0.1"},
+            {socks5_port, 8080},
+            {socks5_user, <<"user">>},
+            {socks5_pass, <<"pass">>}
+        ]},
+        {two, [
+            {port, 30007},
+            {socks5_server, "127.0.0.1"},
+            {socks5_port, 8080},
+            {socks5_user, <<"user">>},
+            {socks5_pass, <<"pass">>}
+        ]}
     ]}
 ]}].
