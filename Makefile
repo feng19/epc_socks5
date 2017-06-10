@@ -10,7 +10,7 @@ compile:
 	rebar3 compile
 
 run:
-	./start_client.sh -d
+	rebar3 shell
 
 ### clean
 .PHONY: clean distclean
